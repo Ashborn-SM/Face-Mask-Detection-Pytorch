@@ -25,7 +25,7 @@ model.load_state_dict(state_dict)
 mtcnn = MTCNN(select_largest=False, device=device)
 
 # Load a single image and display
-cap = cv.VideoCapture('/home/pillai/Downloads/aa.mp4')
+cap = cv.VideoCapture(0)
 #aa.mp4, video.mp4, Video Of People Walking.mp4 production ID_4265031.mp4
 
 labels = {
