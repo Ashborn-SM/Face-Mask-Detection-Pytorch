@@ -45,7 +45,7 @@ def resize(frame, height, width):
     if height and width >= 1000:
         return cv.resize(frame, (r(height*0.5), r(width*0.5)))
     elif height and width >= 1900:
-        return cv.resize(frame, (r(height*0.3), r(width*0.3)))
+        return cv.resize(frame, (r(height*0.6), r(width*0.6)))
     else:
         return cv.resize(frame, (height, width))
 
