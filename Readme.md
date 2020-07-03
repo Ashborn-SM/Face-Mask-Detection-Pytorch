@@ -2,7 +2,7 @@
 This is a course project i have created using pytorch ,using all the skills i learned
 from [freecodecamp](https://www.freecodecamp.org/) and [Jovian](https://www.jovian.ml/).
 
-## HOW to use:
+## How to use:
 Run the Detector_MTCNN.py file. At present video is taken from the webcam(live) if you want
 to feed in a pre-recorded video give the path of the file instead of 0 in line 28 *cv.VideoCapture(0)*.
 If the video is too big and potentially freeze the computer uncomment line 57 *#frame = resize(frame, height, width)* 
