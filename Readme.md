@@ -33,4 +33,5 @@ The model is trained on certain type of mask so it may not perform well on other
 2. Facenet implementation in a video - https://github.com/timesler/facenet-pytorch/blob/master/examples/face_tracking.ipynb
 
 ### Predicted video
-![Video of people Walking](https://drive.google.com/file/d/1uhjCOqbTPS8c2le4Tt3c696QAzJ7nVyv/view?usp=sharing)
+![Mask](https://github.com/Rahul0128/Face-Mask-Detection-Pytorch/blob/master/GIFS/mask.gif),
+![](https://github.com/Rahul0128/Face-Mask-Detection-Pytorch/blob/master/GIFS/mask2.gif)
