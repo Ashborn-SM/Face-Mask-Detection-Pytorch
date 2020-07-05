@@ -32,5 +32,5 @@ The model is trained on certain type of mask so it may not perform well on other
 1. Guide to MTCNN in facenet-pytorch - https://www.kaggle.com/timesler/guide-to-mtcnn-in-facenet-pytorch
 2. Facenet implementation in a video - https://github.com/timesler/facenet-pytorch/blob/master/examples/face_tracking.ipynb
 
-### Predicted video frame
-![Image](https://github.com/Rahul0128/Face-Mask-Detection-Pytorch/blob/master/1.png)
+### Predicted video
+![Video of people Walking](https://drive.google.com/file/d/1uhjCOqbTPS8c2le4Tt3c696QAzJ7nVyv/view?usp=sharing)
