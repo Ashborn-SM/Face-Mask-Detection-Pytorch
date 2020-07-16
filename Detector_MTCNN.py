@@ -97,7 +97,6 @@ while True:
         cv.imshow("Frame", frame)
         # im = Image.fromarray(frame)
         # im.save('mask/a%s.png'%(a))
-        print(prob.item())
         if cv.waitKey(1) & 0xFF == ord('q'):
             break
 
