@@ -35,10 +35,6 @@ color_dict={
     }
 
 def resize(frame, height, width):
-    '''
-    This function will resize the image 
-    if the frame is above a certain condition
-    '''
     if height and width >= 1000:
         return cv.resize(frame, (r(height*0.5), r(width*0.5)))
     elif height and width >= 2500:
