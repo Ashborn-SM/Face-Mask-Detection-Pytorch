@@ -50,7 +50,7 @@ while True:
         # if the video is too big uncomment the below code
         #frame = resize(frame, height, width)
         
-        #padding the image to avoid the bounding going out of the image
+        #padding the image to avoid the bounding box going out of the image
         #and crashes the program
         padding =  cv.copyMakeBorder(frame, 50,50,50,50, cv.BORDER_CONSTANT)
         #converting numpy array into image
